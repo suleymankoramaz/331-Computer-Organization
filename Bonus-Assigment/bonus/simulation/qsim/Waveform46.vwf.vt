@@ -1,0 +1,81 @@
+// Copyright (C) 2018  Intel Corporation. All rights reserved.
+// Your use of Intel Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Intel Program License 
+// Subscription Agreement, the Intel Quartus Prime License Agreement,
+// the Intel FPGA IP License Agreement, or other applicable license
+// agreement, including, without limitation, that your use is for
+// the sole purpose of programming logic devices manufactured by
+// Intel and sold by Intel or its authorized distributors.  Please
+// refer to the applicable agreement for further details.
+
+// *****************************************************************************
+// This file contains a Verilog test bench with test vectors .The test vectors  
+// are exported from a vector file in the Quartus Waveform Editor and apply to  
+// the top level entity of the current Quartus project .The user can use this   
+// testbench to simulate his design using a third-party simulation tool .       
+// *****************************************************************************
+// Generated on "01/06/2023 18:09:15"
+                                                                                
+// Verilog Test Bench (with test vectors) for design :                          tb
+// 
+// Simulation tool : 3rd Party
+// 
+
+`timescale 1 ps/ 1 ps
+module tb_vlg_vec_tst();
+// constants                                           
+// general purpose registers
+reg CLK;
+// wires                                               
+wire add_c_;
+wire at_begin;
+wire comp_out_;
+wire [3:0] first_m;
+wire [3:0] fourth_m;
+wire [2:0] i;
+wire out;
+wire [3:0] part_cypher;
+wire [2:0] present_state;
+wire [1:0] s1_;
+wire s2_;
+wire s3_;
+wire [3:0] secon_m;
+wire [7:0] third_m;
+
+// assign statements (if any)                          
+tb i1 (
+// port map - connection between master ports and signals/registers   
+	.CLK(CLK),
+	.add_c_(add_c_),
+	.at_begin(at_begin),
+	.comp_out_(comp_out_),
+	.first_m(first_m),
+	.fourth_m(fourth_m),
+	.i(i),
+	.out(out),
+	.part_cypher(part_cypher),
+	.present_state(present_state),
+	.s1_(s1_),
+	.s2_(s2_),
+	.s3_(s3_),
+	.secon_m(secon_m),
+	.third_m(third_m)
+);
+initial 
+begin 
+#1000000 $finish;
+end 
+
+// CLK
+always
+begin
+	CLK = 1'b0;
+	CLK = #5000 1'b1;
+	#5000;
+end 
+endmodule
+

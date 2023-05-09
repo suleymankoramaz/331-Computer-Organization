@@ -1,0 +1,101 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'datapath:first|controller:my_controller|present_state[1]'
+Slack : -7.015
+TNS   : -19.386
+
+Type  : Slow 1100mV 85C Model Setup 'CLK'
+Slack : -4.256
+TNS   : -61.031
+
+Type  : Slow 1100mV 85C Model Hold 'CLK'
+Slack : -3.366
+TNS   : -9.207
+
+Type  : Slow 1100mV 85C Model Hold 'datapath:first|controller:my_controller|present_state[1]'
+Slack : 0.385
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'CLK'
+Slack : -0.724
+TNS   : -26.721
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'datapath:first|controller:my_controller|present_state[1]'
+Slack : 0.356
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Setup 'datapath:first|controller:my_controller|present_state[1]'
+Slack : -7.008
+TNS   : -19.715
+
+Type  : Slow 1100mV 0C Model Setup 'CLK'
+Slack : -3.968
+TNS   : -59.019
+
+Type  : Slow 1100mV 0C Model Hold 'CLK'
+Slack : -3.517
+TNS   : -9.596
+
+Type  : Slow 1100mV 0C Model Hold 'datapath:first|controller:my_controller|present_state[1]'
+Slack : 0.288
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'CLK'
+Slack : -0.724
+TNS   : -26.879
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'datapath:first|controller:my_controller|present_state[1]'
+Slack : 0.385
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Setup 'datapath:first|controller:my_controller|present_state[1]'
+Slack : -2.459
+TNS   : -6.279
+
+Type  : Fast 1100mV 85C Model Setup 'CLK'
+Slack : -1.594
+TNS   : -19.512
+
+Type  : Fast 1100mV 85C Model Hold 'CLK'
+Slack : -1.441
+TNS   : -4.019
+
+Type  : Fast 1100mV 85C Model Hold 'datapath:first|controller:my_controller|present_state[1]'
+Slack : 0.210
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'CLK'
+Slack : -0.081
+TNS   : -1.905
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'datapath:first|controller:my_controller|present_state[1]'
+Slack : 0.415
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'datapath:first|controller:my_controller|present_state[1]'
+Slack : -2.237
+TNS   : -5.804
+
+Type  : Fast 1100mV 0C Model Setup 'CLK'
+Slack : -1.216
+TNS   : -15.116
+
+Type  : Fast 1100mV 0C Model Hold 'CLK'
+Slack : -1.427
+TNS   : -3.977
+
+Type  : Fast 1100mV 0C Model Hold 'datapath:first|controller:my_controller|present_state[1]'
+Slack : 0.175
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'CLK'
+Slack : -0.080
+TNS   : -1.896
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'datapath:first|controller:my_controller|present_state[1]'
+Slack : 0.435
+TNS   : 0.000
+
+------------------------------------------------------------

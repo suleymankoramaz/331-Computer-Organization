@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Users/Masaüstü/projects/quartus/bonus/simulation/qsim
+vtb
+Z0 !s110 1673037513
+!i10b 1
+!s100 8ZQ6MhAAI>lEOc1Fe[kK13
+IYm[:``:V14`LzHDF2g:Q70
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/Quartus/projects/bonus/simulation/qsim
+w1673037512
+8tb.vo
+Ftb.vo
+L0 31
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1673037513.000000
+!s107 tb.vo|
+!s90 -work|work|tb.vo|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vtb_vlg_vec_tst
+R0
+!i10b 1
+!s100 _Qi=S:4>Gj0DH>6?k:1nW1
+I?[G^g@?IjEbm3iNm96dof3
+R1
+R2
+w1673037511
+8Waveform3.vwf.vt
+FWaveform3.vwf.vt
+L0 29
+R3
+r1
+!s85 0
+31
+R4
+!s107 Waveform3.vwf.vt|
+!s90 -work|work|Waveform3.vwf.vt|
+!i113 1
+R5
+R6
